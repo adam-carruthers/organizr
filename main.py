@@ -1,5 +1,9 @@
 import inquirer
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 from organizarme_la_semana import organizarme_la_semana
 from standup_diario import standup_diario
 

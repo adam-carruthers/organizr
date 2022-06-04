@@ -1,0 +1,1 @@
+PEQUEÑO_DESCANSO = 0.4

@@ -2,7 +2,7 @@ import time
 import webbrowser
 import datetime as dt
 
-PEQUEÑO_DESCANSO = 0.4
+from compartido import PEQUEÑO_DESCANSO
 
 
 def standup_diario():
@@ -12,7 +12,7 @@ def standup_diario():
     print("\nPrimero, vamos a abrir su lista de quehaceres.")
     webbrowser.open_new("https://todoist.com/app/upcoming")
 
-    print("También, vamos a abrir su horario. Considerelo.")
+    print("También, vamos a abrir su calendario. Considerelo.")
     webbrowser.open_new("https://outlook.office.com/calendar/view/week")
 
     print("Por favor, coloque las ventanas para poder ver las dos a la vez.")
